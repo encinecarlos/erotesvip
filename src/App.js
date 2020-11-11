@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Layout>
-          <Featured name="josé Rainha do Cabaré"/>
+          <Featured name="josé Ricardo"/>
       </Layout>
     </div>
   );
