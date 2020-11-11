@@ -18,7 +18,7 @@
 
 .featured-name {
     font-size: 6.25rem;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -53,4 +53,78 @@
 
 .featured-buttons {
     margin-top: 1rem;
+}
+
+@media (max-width: 760px) {
+    .featured-horizontal {
+        padding-left: 30px;
+        padding-right: 30px;
+        background: linear-gradient(90deg, #1a1a1a 10%, transparent 100%);
+    }
+
+    .featured-name {
+        font-size: 3.5rem;
+        margin-bottom: 22px;
+    }
+
+    .featured-info {
+        margin-top: 1rem;
+    }
+
+    .featured-overview {
+        font-size: 1.5rem;
+        font-weight: 100;
+        line-height: 1.75rem;
+        max-width: 100%;
+    }
+
+    /*.featured-gender {*/
+        /*display: inline-block;*/
+        /*margin-right: 16px;*/
+    /*}*/
+
+    /*.featured-age {
+        display: inline-block;
+        margin-right: 16px;
+    }*/
+
+    /*.featured-diamond {
+        display: inline-block;
+        margin-right: 16px;
+    }*/
+
+    .featured-buttons {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1200px) {
+    .featured-horizontal {
+        padding-left: 30px;
+        padding-right: 30px;
+        background: linear-gradient(90deg, #1a1a1a 30%, transparent 100%);
+    }
+
+    .featured-name {
+        font-size: 4rem;
+        margin-bottom: 22px;
+    }
+
+    .featured-info {
+        margin-top: 1rem;
+    }
+
+    .featured-overview {
+        font-size: 2.5rem;
+        font-weight: 100;
+        line-height: 2.5rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .featured-name {
+        font-size: 2.5rem;
+        margin-bottom: 22px;
+    }
 }
